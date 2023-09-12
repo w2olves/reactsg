@@ -3,7 +3,7 @@ import AnimalShow from "./AnimalShow";
 
 function App() {
   function getRandomAnimal() {
-    const animals = ["dog", "cat", "horse", "gator", "bird"];
+    const animals = ["dog", "cat", "horse", "gator", "bird", "cow"];
     return animals[Math.floor(Math.random() * animals.length)];
   }
   const [animals, setAnimals] = useState([]);
